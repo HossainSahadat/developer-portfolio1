@@ -67,3 +67,35 @@ body {
     padding: 10px 40px;
     border-radius: 5px;
 }
+
+.experience-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    margin-bottom: 100px;
+}
+
+.experience-bio {
+    display: flex;
+}
+
+.ex-half-width {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    padding: 50px 20px;
+}
+
+#baby-web-developer {
+    border-left: 5px solid tomato;
+}
+
+#full-stack-developer {
+    border-left: 5px solid blue;
+}
+
+footer p {
+    text-align: center;
+}
